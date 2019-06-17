@@ -1,4 +1,19 @@
-h2 {
-    color: #FA8072;
-    /* Setting h2 to salmon */
+body {
+    background-color: #FA8072
+}
+
+header {
+    background-color: #B22222
+}
+
+nav {
+    background-color: #4169E1
+}
+
+main {
+    background-color: #808000
+}
+
+footer {
+    background-color: #EE82EE
 }
