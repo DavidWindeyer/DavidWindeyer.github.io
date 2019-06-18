@@ -97,6 +97,7 @@ nav ul li {
 }
 
 nav ul li a {
+    /* set dark brown as a background */
     text-decoration: none;
     padding: 15px 10px;
     color: #FFFFFF;
@@ -109,7 +110,7 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-    color: #556B2F;
+    color: #804000;
     background-color: #BEA180;
 }
 
