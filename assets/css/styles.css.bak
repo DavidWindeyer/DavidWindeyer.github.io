@@ -155,7 +155,7 @@ a:hover {
 }
 
 a:visited {
-    color: #FF00FF;
+    color: #800080;
 }
 
 a:active {
