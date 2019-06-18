@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway:400,400i,700,700i&display=swap');
 
 body {
-    background-color: #FA8072;
+    background-color: #96A372;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
@@ -79,9 +79,14 @@ nav ul li a {
     background-color: #000000;
 }
 
+nav ul li a:visited {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
 nav ul li a:hover {
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #556B2F;
+    background-color: #BEA180;
 }
 
 .wrapper {
@@ -91,17 +96,19 @@ nav ul li a:hover {
 }
 
 header {
-    background-color: #B22222;
+    background-color: #38353C;
     height: 180px;
 }
 
 nav {
-    background-color: #4169E1;
+    /* background-color: #8E6A41; */
     height: 25px;
+    position: absolute;
+    top: 155px;
 }
 
 nav ul {
-    background-color: #008B8B;
+    /* background-color: #008B8B; */
 }
 
 nav ul li {
@@ -115,7 +122,7 @@ main {
 
 footer {
     background-color: #EE82EE;
-    height: 25px;
+    /* height: 25px; */
 }
 
 img {
@@ -150,12 +157,12 @@ a {
     color: #000000;
 }
 
-a:hover {
-    color: #80FF00;
-}
-
 a:visited {
     color: #FF00FF;
+}
+
+a:hover {
+    color: #80FF00;
 }
 
 a:active {
