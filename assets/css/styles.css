@@ -100,12 +100,12 @@ nav ul li a {
     text-decoration: none;
     padding: 15px 10px;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #804000;
 }
 
 nav ul li a:visited {
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #804000;
 }
 
 nav ul li a:hover {
