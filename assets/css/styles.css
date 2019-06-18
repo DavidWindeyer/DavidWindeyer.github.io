@@ -15,12 +15,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 30px;
     margin: 20px 0;
+    color: #CBCBCB;
 }
 
 h2 {
     font-size: 25px;
     color: #FFFFFF;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     padding: 20px 0 20px 0;
     text-align: center;
     letter-spacing: 2px;
@@ -63,13 +64,36 @@ main li {
     margin-left: 60px;
 }
 
+.wrapper {
+    width: 980px;
+    /* margin: TOP/BOTTOM left/right */
+    margin: 0 auto;
+}
+
+header {
+    background-color: #38353C;
+    height: 180px;
+    position: relative;
+}
+
+nav {
+    /* background-color: #8E6A41; */
+    /* margin-top = header height (180) - h1 height (70) - nav height. */
+    /* margin-top: 118px; */
+    position: absolute;
+    bottom: 20px;
+    height: 25px;
+}
+
 /* Navigation */
 nav ul {
     list-style-type: none;
+    /* background-color: #008B8B; */
 }
 
 nav ul li {
     display: inline;
+    /* background-color: #ADFF2F; */
 }
 
 nav ul li a {
@@ -87,32 +111,6 @@ nav ul li a:visited {
 nav ul li a:hover {
     color: #556B2F;
     background-color: #BEA180;
-}
-
-.wrapper {
-    width: 980px;
-    /* margin: TOP/BOTTOM left/right */
-    margin: 0 auto;
-}
-
-header {
-    background-color: #38353C;
-    height: 180px;
-}
-
-nav {
-    /* background-color: #8E6A41; */
-    height: 25px;
-    position: absolute;
-    top: 155px;
-}
-
-nav ul {
-    /* background-color: #008B8B; */
-}
-
-nav ul li {
-    background-color: #ADFF2F;
 }
 
 main {

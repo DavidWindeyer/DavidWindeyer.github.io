@@ -9,40 +9,42 @@
     </head>
     
     <body>
-        <header>
-            <h1><a href="index.html">Churchill House</a></h1>
-            <!--Website title-->
+        <div class="wrapper">
+            <header>
+                <h1><a href="index.html">Churchill House</a></h1>
+                <!--Website title-->
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="the-architect.html">The Architect</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="signifigance.html">Signifigance</a></li>
+                    </ul>
+                </nav>
+            </header>
             
-            <nav>
+            <main>
+                <h2>Statement of Signifigance</h2>
+                <!--Page title-->
+                <p>Churchill House is a good example of the Late Twentieth Century Brutalist style, (1960-), displaying several key features as follows:</p>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="the-architect.html">The Architect</a></li>
-                    <li><a href="history.html">History</a></li>
-                    <li><a href="signifigance.html">Signifigance</a></li>
+                    <li>Large areas of blank wall, especially the west wall of the south wing.</li>
+                    <li>Off-form concrete, such as the west wall of the south wing and the spandrels to the south and east wings.</li>
                 </ul>
-            </nav>
-        </header>
-        
-        <main>
-            <h2>Statement of Signifigance</h2>
-            <!--Page title-->
-            <p>Churchill House is a good example of the Late Twentieth Century Brutalist style, (1960-), displaying several key features as follows:</p>
-            <ul>
-                <li>Large areas of blank wall, especially the west wall of the south wing.</li>
-                <li>Off-form concrete, such as the west wall of the south wing and the spandrels to the south and east wings.</li>
-            </ul>
+                
+                <p>In addition, it displays a number of the other features of this style including: sloping structural fins, precast concrete non-loadbearing wall panels, precast fins for sun protection, and vertical slit windows. Churchill House is one of several Canberra examples of this style, and one of only two which display a restrained form reflecting, perhaps, a more conservative approach to the style because of the intended office use.</p>
+                
+                <p>The architecture of this building may contribute to the education of designers in their understanding of Late Twentieth-Century Architectural Styles.</p>
+                
+                <p>Churchill House has interest for its association with the prominent architect, Robin Boyd. The building was his last major commission.</p>
+            </main>
             
-            <p>In addition, it displays a number of the other features of this style including: sloping structural fins, precast concrete non-loadbearing wall panels, precast fins for sun protection, and vertical slit windows. Churchill House is one of several Canberra examples of this style, and one of only two which display a restrained form reflecting, perhaps, a more conservative approach to the style because of the intended office use.</p>
-            
-            <p>The architecture of this building may contribute to the education of designers in their understanding of Late Twentieth-Century Architectural Styles.</p>
-            
-            <p>Churchill House has interest for its association with the prominent architect, Robin Boyd. The building was his last major commission.</p>
-        </main>
-        
-        <footer>
-            <p>This website was produced by students in the Faculty of Arts & Design, University of Canberra, 2019.</p>
-        </footer>
+            <footer>
+                <p>This website was produced by students in the Faculty of Arts & Design, University of Canberra, 2019.</p>
+            </footer>
+        </div>
         
     </body>
 </html>

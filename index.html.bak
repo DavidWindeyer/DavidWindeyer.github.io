@@ -11,7 +11,8 @@
     <body>
         <div class="wrapper">
             <header>
-                <h1><a href="index.html">Churchill House</a></h1>
+                <h1>Churchill House</h1>
+                <!--<h1><a href="index.html">Churchill House</a></h1>-->
                 <!--Website title-->
                 
                 <nav>
@@ -34,6 +35,7 @@
                 <p>Churchill House, at 216 Northbourne Avenue in Braddon, was designed by Robin Boyd for the Winston Churchill Memorial Trust of Australia in 1969-70, and construction was completed in 1971. It was Boyd's last major commission, and he died prior to its completion. It is one of a small number of larger designs produced by Boyd and was Canberra's first brutalist building.</p>
                 <div class="image-box">
                     <img src="assets/images/churchill-house-19.jpg" alt="House plan" title="House plan" />
+                    <!-- added for testing -->
                     <p>Churchill house plans</p>
                 </div>
                 
