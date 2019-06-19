@@ -15,8 +15,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 30px;
-    margin: 20px 0;
+    font-size: 40px;
+    /* Give some space between the header container and the h1 element */
+    padding: 25px;
     color: #CBCBCB;
 }
 
@@ -74,8 +75,12 @@ main li {
 
 header {
     background-color: #38353C;
+    /* Give some space from the top of the page. ****  Might not be needed ***** */
+    /* margin-top:25px; */
     height: 180px;
-    position: relative;
+    /* Keep the header from scrolling. */
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -85,6 +90,7 @@ nav {
     position: absolute;
     bottom: 20px;
     height: 25px;
+    padding-left: 25px;
 }
 
 /* Navigation */
