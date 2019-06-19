@@ -18,7 +18,7 @@ h1 {
     font-size: 40px;
     /* Give some space between the header container and the h1 element */
     padding: 25px;
-    color: #CBCBCB;
+    color: #BEA180;
 }
 
 h2 {
@@ -46,7 +46,7 @@ p {
 /* Target the footer */
 footer p {
     font-size: 16px;
-    color: #D3D3D3;
+    color: #BEA180;
     padding: 20px 0;
     text-align: center;
 }
