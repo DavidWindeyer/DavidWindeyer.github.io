@@ -71,7 +71,7 @@ header {
     /* margin-top:25px; */
     height: 180px;
     /* Keep the header from scrolling. */
-    position: -webkit-sticky;
+    position: -webkit-sticky; /* Needed for Safari (iPhones etc.) */
     position: sticky;
     top: 0;
 }
