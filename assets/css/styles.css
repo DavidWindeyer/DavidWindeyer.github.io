@@ -6,7 +6,9 @@ body {
     background-color: #96A372;
     /* Default fonts and colours for content not covered by other elements. */
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
 
 /* Set the heading styles */
@@ -38,9 +40,6 @@ h3 {
 
 p {
     padding-bottom: 20px;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
 }
 
 main ul, ol {
