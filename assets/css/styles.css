@@ -118,8 +118,18 @@ nav ul li a:hover {
     background-color: #BEA180;
 }
 
+/* current page nav links */
+nav a.current-page {
+    color: #BEA180;
+}
+
 nav a.current-page:visited {
-    color: blue;
+    color: #BEA180;
+}
+
+nav a.current-page:hover {
+    color: #804000;
+    background-color: #BEA180;
 }
 
 .hero-content {
