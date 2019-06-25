@@ -1,5 +1,5 @@
 /* import Google fonts */
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Merriweather|Open+Sans&display=swap');
 /* Use Serif font for titles - Merriweather, and Sans-Serif for content - Open Sans. */
 
 body {
@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 40px;
     /* Give some space between the header container and the h1 element */
-    margin: 25px 0;
-    /* padding: 15px 0; */
+    margin: 25px 15px;
+    /* padding-left: 15px; */
     color: #BEA180;
     display: inline-block;
 }
@@ -75,6 +75,17 @@ header {
     position: -webkit-sticky; /* Needed for Safari (iPhones etc.) */
     position: sticky;
     top: 0;
+}
+
+/* Logo */
+header p {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 10px 0;
+    float: left;
 }
 
 nav {
