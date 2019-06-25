@@ -19,8 +19,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 40px;
     /* Give some space between the header container and the h1 element */
-    padding: 25px;
+    padding: 10px 0;
     color: #BEA180;
+    display: inline-block;
 }
 
 h2 {
@@ -68,7 +69,7 @@ header {
     background-color: #38353C;
     /* Give some space from the top of the page. ****  Might not be needed ***** */
     /* margin-top:25px; */
-    height: 180px;
+    height: 70px;
     /* Keep the header from scrolling. */
     position: -webkit-sticky; /* Needed for Safari (iPhones etc.) */
     position: sticky;
@@ -79,15 +80,18 @@ nav {
     /* background-color: #8E6A41; */
     /* margin-top = header height (180) - h1 height (70) - nav height. */
     /* margin-top: 118px; */
-    position: absolute;
-    bottom: 20px;
+    /* position: absolute; */
+    /* bottom: 20px; */
     height: 25px;
-    padding-left: 25px;
+    padding: 25px 0;
+    display: inline-block;
+    float: right;
 }
 
 /* Navigation */
 nav ul {
     list-style-type: none;
+    /* padding: 10px; */
     /* background-color: #008B8B; */
 }
 
@@ -112,6 +116,22 @@ nav ul li a:visited {
 nav ul li a:hover {
     color: #804000;
     background-color: #BEA180;
+}
+
+nav a.current-page:visited {
+    color: blue;
+}
+
+.hero-content {
+    background-image: url(../images/churchill-house-19.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero-content.about {
+    background-image: url(../images/churchill-house-19.jpg);
 }
 
 main {
@@ -174,4 +194,23 @@ a:hover {
 
 a:active {
     color: #FF8000;
+}
+
+.column {
+    width: 30%;
+    background-color: red;
+    float: left;
+}
+
+.column:not(:first-child):not(:last-child) {
+    margin: 0 10px;
+    background-color: green;
+}
+
+/* .column.middle {
+    margin: 0 10px;
+} */
+
+.last-word {
+    clear: both;
 }
