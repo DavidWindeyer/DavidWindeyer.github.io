@@ -89,7 +89,7 @@ header p {
     float: left;
 }
 
-header p a, header p a:visited {
+header p a, header p a:visited, header p a:hover {
     text-decoration: none;
     color: #CC6600;
 }
