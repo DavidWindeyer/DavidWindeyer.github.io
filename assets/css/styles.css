@@ -81,11 +81,17 @@ header {
 header p {
     font-family: 'Cinzel', serif;
     font-size: 40px;
+    color: #CC6600;
     display: inline-block;
     padding: 10px;
-    border: 5px solid red;
+    border: 5px ridge #BEA180;
     margin: 10px 0;
     float: left;
+}
+
+header p a, header p a:visited {
+    text-decoration: none;
+    color: #CC6600;
 }
 
 nav {
