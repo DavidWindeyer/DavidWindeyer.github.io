@@ -225,13 +225,13 @@ a:active {
 
 .column {
     width: 30%;
-    background-color: red;
+    background-color: #FF0000;
     float: left;
 }
 
 .column:not(:first-child):not(:last-child) {
     margin: 0 10px;
-    background-color: green;
+    background-color: #00FF00;
 }
 
 /* .column.middle {
@@ -239,5 +239,28 @@ a:active {
 } */
 
 .last-word {
+    clear: both;
+}
+
+/*info about the Robin Boyd Foundation */
+.boyd-logo {
+    border: 1px solid #000000;
+    /* postition: absolute; */
+    padding: 10px;
+    float: left;
+}
+
+.boyd-logo img {
+    max-height: 100px;
+    max-width: 100px;
+    background-color: #FFFFFF;
+}
+
+.boyd-logo a, .boyd-logo a:hover, .boyd-logo a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+.clear {
     clear: both;
 }
