@@ -152,13 +152,23 @@ nav a.current-page:hover {
 .hero-content {
     background-image: url(../images/churchill-house-19.jpg);
     height: 300px;
-    /* background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: bottom; */
 }
 
 .hero-content.about {
     background-image: url(../images/churchill-house-19.jpg);
+}
+
+/* info about the Robin Boyd Foundation */
+.hero-content-the-architect {
+    background-image: url(../images/boyd-logo.png);
+    background-color: #FFFFFF;
+    background-size: contain;
+    height: 100px;
+    display: block;
+    background-repeat: space;
 }
 
 main {
@@ -239,28 +249,5 @@ a:active {
 } */
 
 .last-word {
-    clear: both;
-}
-
-/*info about the Robin Boyd Foundation */
-.boyd-logo {
-    border: 1px solid #000000;
-    /* postition: absolute; */
-    padding: 10px;
-    float: left;
-}
-
-.boyd-logo img {
-    max-height: 100px;
-    max-width: 100px;
-    background-color: #FFFFFF;
-}
-
-.boyd-logo a, .boyd-logo a:hover, .boyd-logo a:visited {
-    text-decoration: none;
-    color: #000000;
-}
-
-.clear {
     clear: both;
 }
