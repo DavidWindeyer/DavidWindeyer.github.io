@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 40px;
     /* Give some space between the header container and the h1 element */
     margin: 25px 15px;
     /* padding-left: 15px; */
