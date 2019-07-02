@@ -253,16 +253,33 @@ a:active {
 }
 
 /* Media query for phones. */
-@media screen and (max-device-width: 768px) {
+@media screen and (max-device-width: 414px) {
     .wrapper {
-        width: 98%;
+        width: 100%;
     }
     
     .image-box img {
         max-height: 100%;
     }
+    
+    .hero-content {
+        background-image: url(../images/churchill-house-16.jpg);
+        height: 18.75rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: left bottom;
+        background-color: #38353C;
+    }
 }
 
-@media screen and (min-device-width:400px) and (max-device-width: 768px) {
-    
+/* Media query for tablets. */
+@media screen and (min-device-width:415px) and (max-device-width: 768px) {
+    .hero-content {
+        background-image: url(../images/churchill-house-13.jpg), url(../images/churchill-house-16.jpg);
+        height: 18.75rem;
+        background-repeat: no-repeat;
+        background-size: 49.5% 100%;
+        background-position: left bottom, right bottom;
+        background-color: #38353C;
+    }
 }
