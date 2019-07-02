@@ -251,3 +251,18 @@ a:active {
 .last-word {
     clear: both;
 }
+
+/* Media query for phones. */
+@media screen and (max-device-width: 768px) {
+    .wrapper {
+        width: 98%;
+    }
+    
+    .image-box img {
+        max-height: 100%;
+    }
+}
+
+@media screen and (min-device-width:400px) and (max-device-width: 768px) {
+    
+}
