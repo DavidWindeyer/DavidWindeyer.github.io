@@ -1,5 +1,5 @@
 /* import Google fonts */
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Merriweather|Open+Sans&display=swap');
 /* Use Serif font for titles - Merriweather, and Sans-Serif for content - Open Sans. */
 
 body {
@@ -7,7 +7,7 @@ body {
     /* Default fonts and colours for content not covered by other elements. */
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    line-height: 25px;
+    /* line-height: 25 px; */
     color: #FFFFFF;
 }
 
@@ -16,35 +16,45 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
 }
 
+/* h1 {
+    font-size: 2.222em;
+    /* Give some space between the header container and the h1 element */
+    /*margin: 1.389em 0.833em;*/
+    /* padding-left: 0.833em; *//*
+    color: #BEA180;
+    display: inline-block;
+} */
+
 h1 {
     font-size: 40px;
     /* Give some space between the header container and the h1 element */
-    padding: 10px 0;
+    margin: 25px 15px;
+    /* padding-left: 15px; */
     color: #BEA180;
     display: inline-block;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 1.389em;
     color: #FFFFFF;
-    /* border: 1px solid #000000; */
-    padding: 20px 0 20px 0;
+    /* border: 0.056em solid #000000; */
+    padding: 1.111em 0 1.111em 0;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 0.111em;
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: 20px;
-    margin: 10px 0 20px 0;
+    font-size: 1.111em;
+    margin: 0.556em 0 1.111em 1.111em;
 }
 
 p {
-    padding-bottom: 20px;
+    padding: 0 1.111em 1.111em 1.111em;
 }
 
 main ul, ol {
-    padding: 20px;
+    padding: 1.111em;
 }
 
 main ul {
@@ -56,11 +66,11 @@ main ol {
 }
 
 main li {
-    margin-left: 60px;
+    margin-left: 3.333em;
 }
 
 .wrapper {
-    width: 980px;
+    width: 70%;
     /* margin: TOP/BOTTOM left/right */
     margin: 0 auto;
 }
@@ -68,22 +78,60 @@ main li {
 header {
     background-color: #38353C;
     /* Give some space from the top of the page. ****  Might not be needed ***** */
-    /* margin-top:25px; */
-    height: 70px;
+    /* margin-top:1.389em; */
+    height: 4.167em;
     /* Keep the header from scrolling. */
     position: -webkit-sticky; /* Needed for Safari (iPhones etc.) */
     position: sticky;
     top: 0;
 }
 
+/* Logo */
+/* header p {
+    font-family: 'Cinzel', serif;
+    font-size: 2.222em;
+    color: #CC6600;
+    display: inline-block;
+    padding: 0.556em;
+    border: 0.278em ridge #BEA180;
+    margin: 0.556em 0;
+    float: left;
+} */
+
+header p {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    color: #CC6600;
+    display: inline-block;
+    padding: 10px;
+    border: 5px ridge #BEA180;
+    margin: 10px 0;
+    float: left;
+}
+
+header p a, header p a:visited, header p a:hover {
+    text-decoration: none;
+    color: #CC6600;
+}
+
+/*nav {
+    /* background-color: #8E6A41; */
+    /* margin-top = header height (180) - h1 height (70) - nav height. *//*
+    margin: 0.556em 0;*/
+    /* position: absolute; */
+    /* bottom: 1.111em; *//*
+    padding: 0.833em 0;
+    display: inline-block;
+    float: right;
+}*/
+
 nav {
     /* background-color: #8E6A41; */
     /* margin-top = header height (180) - h1 height (70) - nav height. */
-    /* margin-top: 118px; */
+    margin: 10px 0;
     /* position: absolute; */
     /* bottom: 20px; */
-    height: 25px;
-    padding: 25px 0;
+    padding: 15px 0;
     display: inline-block;
     float: right;
 }
@@ -91,7 +139,7 @@ nav {
 /* Navigation */
 nav ul {
     list-style-type: none;
-    /* padding: 10px; */
+    /* padding: 0.556em; */
     /* background-color: #008B8B; */
 }
 
@@ -103,7 +151,7 @@ nav ul li {
 nav ul li a {
     /* set dark brown as a background */
     text-decoration: none;
-    padding: 15px 10px;
+    padding: 0.833em 0.556em;
     color: #FFFFFF;
     background-color: #804000;
 }
@@ -118,64 +166,83 @@ nav ul li a:hover {
     background-color: #BEA180;
 }
 
+/* current page nav links */
+nav a.current-page {
+    color: #BEA180;
+}
+
 nav a.current-page:visited {
-    color: blue;
+    color: #BEA180;
+}
+
+nav a.current-page:hover {
+    color: #804000;
+    background-color: #BEA180;
 }
 
 .hero-content {
     background-image: url(../images/churchill-house-19.jpg);
-    height: 300px;
-    background-repeat: no-repeat;
+    height: 16.667em;
+    /* background-repeat: no-repeat; */
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom; */
 }
 
 .hero-content.about {
     background-image: url(../images/churchill-house-19.jpg);
 }
 
+/* info about the Robin Boyd Foundation */
+.hero-content-the-architect {
+    background-image: url(../images/boyd-logo.svg);
+    background-color: #FFFFFF;
+    background-size: contain;
+    height: 5.556em;
+    display: block;
+    background-repeat: space;
+}
+
 main {
     background-color: #808000;
-    padding: 0 20px;
 }
 
 footer {
     background-color: #38353C;
-    /* height: 25px; */
+    /* height: 1.389em; */
 }
 
 /* Target the footer */
 footer p {
-    font-size: 16px;
+    font-size: 0.889em;
     color: #BEA180;
-    padding: 20px 0;
+    padding: 1.111em 0;
     text-align: center;
 }
 
 img {
-    max-width: 940px;
+    max-width: 92.222em;
 }
 
 .image-box {
-    border: 1px solid #FFFFFF;
-    padding: 20px;
+    border: 0.056em solid #FFFFFF;
+    padding: 1.111em;
     float: left;
-    margin-right: 20px; 
+    margin-right: 1.111em; 
 }
 
 .image-box img {
-    max-height: 300px;
+    max-height: 16.667em;
 }
 
 .image-box p {
    text-align: center; 
 }
 /*.main-image {
-    max-height: 300px;
-    border: 1px solid #000000;
-    padding: 20px;
+    max-height: 16.667em;
+    border: 0.056em solid #000000;
+    padding: 1.111em;
     float: left;
-    margin-right: 20px;    
+    margin-right: 1.111em;    
 }*/
 
 /* default link styles */
@@ -198,19 +265,35 @@ a:active {
 
 .column {
     width: 30%;
-    background-color: red;
+    background-color: #FF0000;
     float: left;
 }
 
-.column:not(:first-child):not(nth-last-child(1)) {
-    margin: 0 10px;
-    background-color: green;
+.column:not(:first-child):not(:last-child) {
+    margin: 0 0.556em;
+    background-color: #00FF00;
+    display: none;
 }
 
 /* .column.middle {
-    margin: 0 10px;
+    margin: 0 0.556em;
 } */
 
 .last-word {
     clear: both;
+}
+
+/* Media query for phones. */
+@media screen and (max-device-width: 768px) {
+    .wrapper {
+        width: 98%;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-device-width:400px) and (max-device-width: 768px) {
+    
 }
