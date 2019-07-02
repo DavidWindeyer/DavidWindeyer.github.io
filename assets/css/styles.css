@@ -69,7 +69,7 @@ header {
     background-color: #38353C;
     /* Give some space from the top of the page. ****  Might not be needed ***** */
     /* margin-top:25px; */
-    height: 75px;
+    height: 4.6875em;
     /* Keep the header from scrolling. */
     position: -webkit-sticky; /* Needed for Safari (iPhones etc.) */
     position: sticky;
