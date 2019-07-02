@@ -69,7 +69,7 @@ header {
     background-color: #38353C;
     /* Give some space from the top of the page. ****  Might not be needed ***** */
     /* margin-top:25px; */
-    height: 75px;
+    height: 4.6875em;
     /* Keep the header from scrolling. */
     position: -webkit-sticky; /* Needed for Safari (iPhones etc.) */
     position: sticky;
@@ -79,12 +79,12 @@ header {
 /* Logo */
 header p {
     font-family: 'Cinzel', serif;
-    font-size: 40px;
+    font-size: 2.5em;
     color: #CC6600;
     display: inline-block;
-    padding: 10px;
+    padding: 0.28em;
     border: 5px ridge #BEA180;
-    margin: 10px 0;
+    margin: 0.28em 0;
     float: left;
 }
 
