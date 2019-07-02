@@ -6,8 +6,8 @@ body {
     background-color: #96A372;
     /* Default fonts and colours for content not covered by other elements. */
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    /* line-height: 1.5625em; - put in main */
+    font-size: 18px;
+    line-height: 25px;
     color: #FFFFFF;
 }
 
@@ -17,9 +17,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 40px;
     /* Give some space between the header container and the h1 element */
-    padding: 1.1rem;
+    margin: 25px 15px;
+    /* padding-left: 15px; */
     color: #BEA180;
     display: inline-block;
 }
@@ -69,7 +70,7 @@ header {
     background-color: #38353C;
     /* Give some space from the top of the page. ****  Might not be needed ***** */
     /* margin-top:25px; */
-    height: 4.6875rem;
+    height: 75px;
     /* Keep the header from scrolling. */
     position: -webkit-sticky; /* Needed for Safari (iPhones etc.) */
     position: sticky;
@@ -79,12 +80,12 @@ header {
 /* Logo */
 header p {
     font-family: 'Cinzel', serif;
-    font-size: 2.5em;
+    font-size: 40px;
     color: #CC6600;
     display: inline-block;
-    padding: 0.25rem;
-    border: 0.3125rem ridge #BEA180; /* Should this be relative? */
-    margin: 0.5rem 0;
+    padding: 10px;
+    border: 5px ridge #BEA180;
+    margin: 10px 0;
     float: left;
 }
 
@@ -96,10 +97,10 @@ header p a, header p a:visited, header p a:hover {
 nav {
     /* background-color: #8E6A41; */
     /* margin-top = header height (180) - h1 height (70) - nav height. */
-    /* margin: 10px 0; */
+    margin: 10px 0;
     /* position: absolute; */
     /* bottom: 20px; */
-    padding: 1.84375rem 0;
+    padding: 15px 0;
     display: inline-block;
     float: right;
 }
@@ -119,7 +120,7 @@ nav ul li {
 nav ul li a {
     /* set dark brown as a background */
     text-decoration: none;
-    padding: 0.9375rem 0.625rem;
+    padding: 15px 10px;
     color: #FFFFFF;
     background-color: #804000;
 }
@@ -150,7 +151,7 @@ nav a.current-page:hover {
 
 .hero-content {
     background-image: url(../images/churchill-house-19.jpg);
-    height: 300px;
+    height: 18.75rem;
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: bottom; */
@@ -165,7 +166,7 @@ nav a.current-page:hover {
     background-image: url(../images/boyd-logo.svg);
     background-color: #FFFFFF;
     background-size: contain;
-    height: 100px;
+    height: 6.25rem;
     display: block;
     background-repeat: space;
 }
