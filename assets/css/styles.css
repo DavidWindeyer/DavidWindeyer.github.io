@@ -150,11 +150,11 @@ nav a.current-page:hover {
 }
 
 .hero-content {
-    background-image: url(../images/churchill-house-14.jpg), url(../images/churchill-house-13.jpg), url(../images/churchill-house-15.jpg), url(../images/churchill-house-16.jpg);
+    background-image: url(../images/churchill-house-14.jpg), url(../images/churchill-house-13.jpg), url(../images/churchill-house-16.jpg);
     height: 18.75rem;
     background-repeat: no-repeat;
-    background-size: 25% 100%;
-    background-position: 0% 100%, 35% 100%, 65% 100%, 95% 100%;
+    background-size: 33% 100%;
+    background-position: left bottom, center bottom, right bottom;
     background-color: #38353C;
 }
 
