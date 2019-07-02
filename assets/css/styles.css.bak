@@ -84,7 +84,7 @@ header p {
     display: inline-block;
     padding: 0.25rem;
     border: 0.3125rem ridge #BEA180; /* Should this be relative? */
-    margin: 0.5rem 0;
+    margin: 0.5rem 0.5rem;
     float: left;
 }
 
@@ -150,7 +150,7 @@ nav a.current-page:hover {
 
 .hero-content {
     background-image: url(../images/churchill-house-19.jpg);
-    height: 300px;
+    height: 18.75rem;
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: bottom; */
@@ -165,7 +165,7 @@ nav a.current-page:hover {
     background-image: url(../images/boyd-logo.svg);
     background-color: #FFFFFF;
     background-size: contain;
-    height: 100px;
+    height: 6.25rem;
     display: block;
     background-repeat: space;
 }
