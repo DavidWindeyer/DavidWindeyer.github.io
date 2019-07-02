@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 2.5em;
     /* Give some space between the header container and the h1 element */
-    padding: 1.1rem;
+    padding: 1.5625rem;
     color: #BEA180;
     display: inline-block;
 }
@@ -82,8 +82,8 @@ header p {
     font-size: 2.5em;
     color: #CC6600;
     display: inline-block;
-    padding: 0.25rem;
-    border: 0.3125rem ridge #BEA180; /* Should this be relative? */
+    padding: 0.3rem;
+    border: 5px ridge #BEA180; /* Should this be relative? */
     margin: 0.5rem 0;
     float: left;
 }
@@ -99,7 +99,7 @@ nav {
     /* margin: 10px 0; */
     /* position: absolute; */
     /* bottom: 20px; */
-    padding: 1.84375rem 0;
+    padding: 1.5625rem 0;
     display: inline-block;
     float: right;
 }
