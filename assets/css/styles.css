@@ -7,7 +7,6 @@ body {
     /* Default fonts and colours for content not covered by other elements. */
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    /* line-height: 1.5625em; - put in main */
     color: #FFFFFF;
 }
 
@@ -168,6 +167,7 @@ nav a.current-page:hover {
 
 main {
     background-color: #808000;
+    line-height: 1.5625em;
 }
 
 footer {
