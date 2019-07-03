@@ -25,12 +25,12 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 1.5625em;
     color: #FFFFFF;
     /* border: 1px solid #000000; */
-    padding: 20px 0 20px 0;
+    padding: 1.25rem 0 1.25rem 0;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 0.125em;
     text-transform: uppercase;
 }
 
@@ -68,7 +68,6 @@ main li {
 header {
     background-color: #38353C;
     /* Give some space from the top of the page. ****  Might not be needed ***** */
-    /* margin-top:25px; */
     height: 4.6875rem;
     /* Keep the header from scrolling. */
     position: -webkit-sticky; /* Needed for Safari (iPhones etc.) */
@@ -98,7 +97,6 @@ nav {
     /* margin-top = header height (180) - h1 height (70) - nav height. */
     /* margin: 10px 0; */
     /* position: absolute; */
-    /* bottom: 20px; */
     margin-right: 0.5rem;
     padding: 1.84375rem 0;
     display: inline-block;
@@ -108,7 +106,6 @@ nav {
 /* Navigation */
 nav ul {
     list-style-type: none;
-    /* padding: 10px; */
     /* background-color: #008B8B; */
 }
 
@@ -178,7 +175,6 @@ main {
 
 footer {
     background-color: #38353C;
-    /* height: 25px; */
 }
 
 /* Target the footer */
