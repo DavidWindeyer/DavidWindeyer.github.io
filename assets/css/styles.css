@@ -193,11 +193,27 @@ img {
     margin-right: 1.25rem; 
 }
 
-.image-box img {
+.image-box-left {
+    border: 0.0625rem solid #FFFFFF;
+    padding: 1.25rem;
+    float: left;
+    /* margin-right: 1.25rem; */
+    margin: 1.25rem;
+}
+
+.image-box-right {
+    border: 0.0625rem solid #FFFFFF;
+    padding: 1.25rem;
+    float: right;
+    /* margin-right: 1.25rem; */
+    margin: 1.25rem;
+}
+
+.image-box img, .image-box-right img, .image-box-left img {
     max-height: 18.75rem;
 }
 
-.image-box p {
+.image-box p, .image-box-right p, .image-box-left p {
    text-align: center; 
 }
 
@@ -234,7 +250,7 @@ a:active {
     margin: 0 10px;
 } */
 
-.last-word {
+.last-word, .clear-float {
     clear: both;
 }
 
