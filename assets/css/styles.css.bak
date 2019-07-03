@@ -99,6 +99,7 @@ nav {
     /* margin: 10px 0; */
     /* position: absolute; */
     /* bottom: 20px; */
+    margin-right: 0.5rem;
     padding: 1.84375rem 0;
     display: inline-block;
     float: right;
@@ -149,11 +150,12 @@ nav a.current-page:hover {
 }
 
 .hero-content {
-    background-image: url(../images/churchill-house-19.jpg);
+    background-image: url(../images/churchill-house-14.jpg), url(../images/churchill-house-13.jpg), url(../images/churchill-house-16.jpg);
     height: 18.75rem;
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-    background-position: bottom; */
+    background-repeat: no-repeat;
+    background-size: 33% 100%;
+    background-position: left bottom, center bottom, right bottom;
+    background-color: #38353C;
 }
 
 .hero-content.about {
@@ -248,4 +250,36 @@ a:active {
 
 .last-word {
     clear: both;
+}
+
+/* Media query for phones. */
+@media screen and (max-device-width: 414px) {
+    .wrapper {
+        width: 100%;
+    }
+    
+    .image-box img {
+        max-height: 100%;
+    }
+    
+    .hero-content {
+        background-image: url(../images/churchill-house-16.jpg);
+        height: 18.75rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: left bottom;
+        background-color: #38353C;
+    }
+}
+
+/* Media query for tablets. */
+@media screen and (min-device-width:415px) and (max-device-width: 768px) {
+    .hero-content {
+        background-image: url(../images/churchill-house-13.jpg), url(../images/churchill-house-16.jpg);
+        height: 18.75rem;
+        background-repeat: no-repeat;
+        background-size: 49.5% 100%;
+        background-position: left bottom, right bottom;
+        background-color: #38353C;
+    }
 }
