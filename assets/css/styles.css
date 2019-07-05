@@ -224,16 +224,16 @@ a {
 }
 
 a:visited {
-    color: #FF00FF;
+    color: #BEA180;
 }
 
 a:hover {
-    color: #80FF00;
+    color: #804000;
 }
 
-a:active {
+/* a:active {
     color: #FF8000;
-}
+} */
 
 .column {
     width: 30%;
