@@ -260,7 +260,7 @@ a:active {
         width: 100%;
     }
     
-    .image-box img {
+    .image-box-left img, .image-box-right img {
         max-height: 100%;
     }
     
