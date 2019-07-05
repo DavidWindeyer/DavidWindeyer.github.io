@@ -260,6 +260,11 @@ a:hover {
         width: 100%;
     }
     
+    .image-box-left p, .image-box-right p {
+        margin-top: 0.625rem;
+        font-size: 150%;
+    }
+    
     .image-box-left img, .image-box-right img {
         max-height: 100%;
     }
