@@ -256,7 +256,7 @@ a:hover {
     }
     
     .image-box-left, .image-box-right {
-        clear: both;
+        /* clear: both; */
         margin-left: 7%;
         margin-right: 7%;
     }
