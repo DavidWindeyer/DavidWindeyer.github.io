@@ -266,6 +266,7 @@ a:hover {
     
     .image-box-left img, .image-box-right img {
         max-height: 100%;
+        max-width: 100%;
     }
     
     .hero-content {
