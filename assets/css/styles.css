@@ -257,6 +257,8 @@ a:hover {
     
     .image-box-left, .image-box-right {
         clear: both;
+        margin-left: 7%;
+        margin-right: 7%;
     }
     
     .image-box-left p, .image-box-right p {
@@ -266,7 +268,6 @@ a:hover {
     
     .image-box-left img, .image-box-right img {
         max-height: 100%;
-        max-width: 100%;
     }
     
     .hero-content {
