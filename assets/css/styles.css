@@ -290,4 +290,8 @@ a:hover {
         background-position: left bottom, right bottom;
         background-color: #38353C;
     }
+    
+    .wrapper {
+        width: 95%;
+    }
 }

@@ -7,7 +7,6 @@ body {
     /* Default fonts and colours for content not covered by other elements. */
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    /* line-height: 1.5625em; - put in main */
     color: #FFFFFF;
 }
 
@@ -168,6 +167,7 @@ nav a.current-page:hover {
 
 main {
     background-color: #808000;
+    line-height: 1.5625em;
 }
 
 footer {
@@ -186,19 +186,30 @@ img {
     max-width: 58.75rem;
 }
 
-.image-box {
+
+.image-box-left {
     border: 0.0625rem solid #FFFFFF;
     padding: 1.25rem;
     float: left;
-    margin-right: 1.25rem; 
+    /* margin-right: 1.25rem; */
+    margin: 1.25rem;
 }
 
-.image-box img {
+.image-box-right {
+    border: 0.0625rem solid #FFFFFF;
+    padding: 1.25rem;
+    float: right;
+    /* margin-right: 1.25rem; */
+    margin: 1.25rem;
+}
+
+.image-box-right img, .image-box-left img {
     max-height: 18.75rem;
 }
 
-.image-box p {
-   text-align: center; 
+.image-box-right p, .image-box-left p {
+   text-align: center;
+   padding-bottom: 0;
 }
 
 /* default link styles */
@@ -208,16 +219,16 @@ a {
 }
 
 a:visited {
-    color: #FF00FF;
+    color: #BEA180;
 }
 
 a:hover {
-    color: #80FF00;
+    color: #804000;
 }
 
-a:active {
+/* a:active {
     color: #FF8000;
-}
+} */
 
 .column {
     width: 30%;
@@ -226,7 +237,7 @@ a:active {
 }
 
 .column:not(:first-child):not(:last-child) {
-    margin: 0 10px;
+    margin: 0 0.625rem;
     background-color: #00FF00;
 }
 
@@ -234,7 +245,7 @@ a:active {
     margin: 0 10px;
 } */
 
-.last-word {
+.last-word, .clear-float {
     clear: both;
 }
 
@@ -244,7 +255,18 @@ a:active {
         width: 100%;
     }
     
-    .image-box img {
+    .image-box-left, .image-box-right {
+        /* clear: both; */
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    .image-box-left p, .image-box-right p {
+        margin-top: 0.625rem;
+        font-size: 150%;
+    }
+    
+    .image-box-left img, .image-box-right img {
         max-height: 100%;
     }
     
@@ -267,5 +289,9 @@ a:active {
         background-size: 49.5% 100%;
         background-position: left bottom, right bottom;
         background-color: #38353C;
+    }
+    
+    .wrapper {
+        width: 90%;
     }
 }
