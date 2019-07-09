@@ -282,7 +282,7 @@ a:hover {
 }
 
 /* Media query for tablets. */
-@media screen and (min-device-width:415px) and (max-device-width: 768px) {
+@media screen and (min-device-width:415px) and (max-device-width: 1024px) {
     .hero-content {
         background-image: url(../images/churchill-house-13.jpg), url(../images/churchill-house-16.jpg);
         height: 18.75rem;
