@@ -264,6 +264,7 @@ a:hover {
     .image-box-left p, .image-box-right p {
         margin-top: 0.625rem;
         font-size: 150%;
+        padding: 0;
     }
     
     .image-box-left img, .image-box-right img {
@@ -292,6 +293,6 @@ a:hover {
     }
     
     .wrapper {
-        width: 90%;
+        width: 95%;
     }
 }
