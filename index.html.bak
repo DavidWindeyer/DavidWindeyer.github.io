@@ -11,6 +11,8 @@
     <body>
         <header>
             <div class="wrapper">
+                <!-- Logo -->
+                <p><a href="/">CH</a></p>
                 <h1>Churchill House</h1>
                 <!--Website title-->
                 
@@ -35,14 +37,9 @@
                 <h2>Welcome to Churchill House</h2>
                 <!--Page title-->
                 
-                Churchill House
+                <p>Churchill House</p>
                 
                 <p>Churchill House, at 216 Northbourne Avenue in Braddon, was designed by Robin Boyd for the Winston Churchill Memorial Trust of Australia in 1969-70, and construction was completed in 1971. It was Boyd's last major commission, and he died prior to its completion. It is one of a small number of larger designs produced by Boyd and was Canberra's first brutalist building.</p>
-                <div class="image-box">
-                    <img src="assets/images/churchill-house-19.jpg" alt="House plan" title="House plan" />
-                    <!-- added for testing -->
-                    <p>Churchill house plans</p>
-                </div>
                 
                 <h3>Components</h3>
                 <!--sub headings-->
@@ -53,21 +50,15 @@
                 <!--sub headings-->
                 
                 <p>Although it has undergone some alterations over the years, the building still displays key features of the brutalist style with its large areas of blank wall and use off-form concrete, sloping structural fins and precast concrete non-loadbearing wall panels, precast fins for sun protection, and vertical slit windows. Churchill House displays a fairly restrained form in comparison with the major Canberra buildings that followed in this style:</p>
-                
+
                 <ul>
                     <!-- bullet points -->
                     <!-- can only contain <li> -->
-                    <li>Cameron Offices</li>
+                    <li><a href="https://www.geocaching.com/geocache/GC5ETVA_canberra-architecture-1-cameron-offices">Cameron Offices</a></li>
                     <li><a href="https://nga.gov.au">National Gallery of Australia</a></li>
-                    <li>High Court of Australia</li>
+                    <li><a href="http://www.hcourt.gov.au/">High Court of Australia</a></li>
                 </ul>
                 
-                <ol>
-                    <!-- numbered list -->
-                    <li>Cameron Offices</li>
-                    <li>National Gallery of Australia</li>
-                    <li>High Court of Australia</li>
-                </ol>
             </div>
         </main>
         
@@ -76,7 +67,7 @@
                 <div class="column">
                     <p>Left</p>
                 </div>
-                <div class="column">
+                <div class="column middle">
                     <p>Middle</p>
                 </div>
                 <div class="column">

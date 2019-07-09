@@ -9,27 +9,36 @@
     </head>
     
     <body>
-        <div class="wrapper">
-            <header>
+        <header>
+            <div class="wrapper">
+                <!-- Logo -->
+                <p><a href="/">CH</a></p>
                 <h1>Churchill House</h1>
                 <!--Website title-->
                 
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html" class="current-page">About</a></li>
                         <li><a href="the-architect.html">The Architect</a></li>
                         <li><a href="history.html">History</a></li>
                         <li><a href="signifigance.html">Signifigance</a></li>
                     </ul>
                 </nav>
-            </header>
-            
-            <main>
+            </div>
+        </header>
+        
+        <main>
+            <div class="wrapper">
                 <h2>About the Churchill House</h2>
                 <!--Page title-->
                 
                 <h3>Description</h3>
+                
+                 <div class="image-box-right">
+                    <img src="assets/images/churchill-house-19.jpg" alt="House plan" title="House plan" />
+                    <p>Churchill house plans</p>
+                </div>
                 
                 <p>Churchill House was designed by Robin Boyd for the Winston Churchill Memorial Trust of Australia in 1969-70 and construction was completed in 1971. The building is an example of the Late Twentieth-Century Brutalist Style (1960-) with its large areas of blank wall and off-form concrete.</p>
                 
@@ -41,7 +50,15 @@
                 </ul>
                 <p>The main building forms an L shape in plan, and with the north wing it encloses on three sides a courtyard in which the pool is located. The main building is of three storeys with a four storey lift tower at the southeast corner, the north wing is of two storeys, and the carpark is two storeyed.</p>
                 
+                <!-- Reset float settings -->
+                <div class="clear-float"></div>
+                
                 <h3>Main Building</h3>
+                
+                <div class="image-box-left">
+                    <img src="assets/images/churchill-house-21.jpg" alt="Main Building" title="Main Building" />
+                    <p>Main Building</p>
+                </div>
                 
                 <p>The main building displays several different elevational treatments. The elevations facing onto the pool area feature floor to ceiling glass with minimal black metal frames to the lowest level, and precast vertical panels on the upper two storeys. Each panel has a projecting fin and are relatively narrow, with the overall affect being of closely spaced vertical fins. Beside the fins are narrow, slot windows providing minimal outlook onto the pool area.</p>
                 
@@ -53,11 +70,27 @@
                 
                 <p>The roof of the main building is set behind a parapet and appears to be graded concrete with a membrane coating.</p>
                 
+                <!-- Reset float settings -->
+                <div class="clear-float"></div>
+                
                 <h3>North Wing</h3>
+                
+                <div class="image-box-right">
+                    <img src="assets/images/churchill-house-21.jpg" alt="Glass and concrete" title="Glass and concrete" />
+                    <p>Glass and concrete</p>
+                </div>
                 
                 <p>The north wing replaces an earlier pavilion on the same location. The current wing is a two storey structure with a flat metal deck roof set behind a parapet. The wing has an encircling steel colonnade which supports the roof and parapet. The walls are set back from the colonnade and feature flush-mounted glazing set in thin black metal frames, with textured off-form concrete spandrels, similar to the south wall of the south wing. There is an enclosed link between the north and east wings at the ground floor level.</p>
                 
+                <!-- Reset float settings -->
+                <div class="clear-float"></div>
+                
                 <h3>Pool Area, Carpark and Landscaping</h3>
+                
+                <div class="image-box-left">
+                    <img src="assets/images/churchill-house-5.png" alt="View from the garden" title="View from the garden" />
+                    <p>The Garden</p>
+                </div>
                 
                 <p>The pool area is lower than the surrounding site, and being mostly enclosed by the wings, has the quality of a sunken courtyard. The pool area is reached by a large flight of concrete steps from the west, and features a pond which borders a large, raised central island which is reached from one side by a set of bridging steps. The island has concrete paving, garden beds and silver birch trees, and is the location for a large fibreglass statue of Sir Winston Churchill.</p>
                 
@@ -90,13 +123,14 @@
                 </ul>
                 
                 <p>None the less, the building retains substantial components and details of the original design.</p>
-                
-            </main>
-            
-            <footer>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="wrapper">
                 <p>This website was produced by students in the Faculty of Arts & Design, University of Canberra, 2019.</p>
-            </footer>
-        </div>
+            </div>
+        </footer>
         
     </body>
 </html>
