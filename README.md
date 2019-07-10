@@ -15,3 +15,9 @@ Changing to em broke the header - used rem instead
 Added margins to the mobile versions of image boxes
 
 hero image sizes
+
+Colours
+
+My choice of colours for the website was based on what I saw on historical sites such as the National Trust. https://www.nationaltrust.org.au/ https://yandinahistorichouse.com.au/
+
+As no logo was provided I chose to use the initials of Churchill House, with a border similar to that which I liked from http://www.dunnellondepot.com/
