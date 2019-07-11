@@ -21,3 +21,5 @@ Colours
 My choice of colours for the website was based on what I saw on historical sites such as the National Trust. https://www.nationaltrust.org.au/ https://yandinahistorichouse.com.au/
 
 As no logo was provided I chose to use the initials of Churchill House, with a border similar to that which I liked from http://www.dunnellondepot.com/
+
+The link to the Robin Boyd website is achived using thier logo as a background image with a repeat option of space, which gives an even distribuation of the logo, with no bits chopped off as the screen is resized.
