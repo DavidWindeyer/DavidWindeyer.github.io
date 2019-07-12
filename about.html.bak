@@ -56,8 +56,8 @@
                 <h3>Main Building</h3>
                 
                 <div class="image-box-left">
-                    <img src="assets/images/churchill-house-21.jpg" alt="Main Building" title="Main Building" />
-                    <p>Main Building</p>
+                    <img src="assets/images/churchill-house-4.jpg" alt="Churchill House" title="Churchill House" />
+                    <p>Churchill House</p>
                 </div>
                 
                 <p>The main building displays several different elevational treatments. The elevations facing onto the pool area feature floor to ceiling glass with minimal black metal frames to the lowest level, and precast vertical panels on the upper two storeys. Each panel has a projecting fin and are relatively narrow, with the overall affect being of closely spaced vertical fins. Beside the fins are narrow, slot windows providing minimal outlook onto the pool area.</p>
@@ -98,6 +98,8 @@
                 
                 <p>Churchill House has a number of landscape/garden areas. At the front (west) of the building is an open lawn area and either side are mixed native/exotic plantings. The pool area contains numerous trees and shrubs, again of mixed native/exotic species. A small courtyard to the southeast of the main building features bamboo.</p>
                 
+                <!-- Reset float settings -->
+                <div class="clear-float"></div>
                 <h3>Stylistic Analysis</h3>
                 
                 <p>Churchill House displays several key features of the Late Twentieth Century Brutalist style as follows.</p>

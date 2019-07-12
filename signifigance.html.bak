@@ -9,9 +9,11 @@
     </head>
     
     <body>
-        <div class="wrapper">
-            <header>
-                <h1><a href="index.html">Churchill House</a></h1>
+        <header>
+            <div class="wrapper">
+                <!-- Logo -->
+                <p><a href="/">CH</a></p>
+                <h1>Churchill House</h1>
                 <!--Website title-->
                 
                 <nav>
@@ -20,14 +22,20 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="the-architect.html">The Architect</a></li>
                         <li><a href="history.html">History</a></li>
-                        <li><a href="signifigance.html">Signifigance</a></li>
+                        <li><a href="signifigance.html" class="current-page">Signifigance</a></li>
                     </ul>
                 </nav>
-            </header>
-            
-            <main>
+            </div>
+        </header>
+        
+        <main>
+            <div class="wrapper">
                 <h2>Statement of Signifigance</h2>
                 <!--Page title-->
+                <div class="image-box-right">
+                    <img src="assets/images/churchill-house-15.jpg" alt="House plan" title="House plan" />
+                    <p>Churchill house plans</p>
+                </div>
                 <p>Churchill House is a good example of the Late Twentieth Century Brutalist style, (1960-), displaying several key features as follows:</p>
                 <ul>
                     <li>Large areas of blank wall, especially the west wall of the south wing.</li>
@@ -39,12 +47,14 @@
                 <p>The architecture of this building may contribute to the education of designers in their understanding of Late Twentieth-Century Architectural Styles.</p>
                 
                 <p>Churchill House has interest for its association with the prominent architect, Robin Boyd. The building was his last major commission.</p>
-            </main>
-            
-            <footer>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="wrapper">
                 <p>This website was produced by students in the Faculty of Arts & Design, University of Canberra, 2019.</p>
-            </footer>
-        </div>
+            </div>
+        </footer>
         
     </body>
 </html>
