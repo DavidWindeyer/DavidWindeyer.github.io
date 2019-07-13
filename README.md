@@ -17,7 +17,11 @@ On the page which gives information about Robin Boyd I wanted a clickable link t
 My solution to this was to utilize a background image in the css, with a repeat setting of space, to ensure that partial images were not visable.
 
 The size of the hero content was also interesting for me.  This involved having 3 possible displays based upon the device screen size using a media query.
-I found 
+As the size of the device increased so did the number of images.
+I found I could easly have 3 images as the background with left, right and centre spacing.  I did investigate adding more images, but do to a non-consistant image size placement was quite difficult.
+
+In my design I had wanted to have a carousel on the home page, but found I could not do this with CSS only.
+
 
 
 
