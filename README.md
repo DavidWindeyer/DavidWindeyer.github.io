@@ -22,7 +22,7 @@ I found I could easly have 3 images as the background with left, right and centr
 
 In my design I had wanted to have a carousel on the home page, but found I could not do this with CSS only.
 
-
+David Windeyer - U3091705
 
 
 
